@@ -11,5 +11,7 @@ namespace OtomatYonetimSistemi.Entities
         public Guid ID { get; set; } = Guid.NewGuid();
         public string? Name { get; set; }
         public string? Location { get; set; }
+        public string? BarcodeNumber { get; set; }
+        public byte Capacity { get; set; }
     }
 }
