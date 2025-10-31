@@ -20,6 +20,8 @@ namespace OtomatYonetimSistemi
                 
             };
             MessageBox.Show("Ugur Sahin'in yaptıgı degisiklik");
+            MessageBox.Show("Deneme");
+
         }
     }
 }
