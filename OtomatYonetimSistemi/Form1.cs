@@ -1,4 +1,4 @@
-using OtomatYonetimSistemi.Entities;
+﻿using OtomatYonetimSistemi.Entities;
 
 namespace OtomatYonetimSistemi
 {
@@ -16,7 +16,10 @@ namespace OtomatYonetimSistemi
                 new Machines { Name = "Otomat 1", Location = "Kat 1" },
                 new Machines { Name = "Otomat 2", Location = "Kat 2" },
                 new Machines { Name = "Otomat 3", Location = "Kat 3" }
+
+                
             };
+            MessageBox.Show("Ugur Sahin'in yaptıgı degisiklik");
         }
     }
 }
